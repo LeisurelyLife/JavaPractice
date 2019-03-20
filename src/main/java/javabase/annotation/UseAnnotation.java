@@ -10,7 +10,7 @@ public class UseAnnotation {
         System.out.println("yes");
     }
 
-    @Test(ignore = true)
+    @Test(ignore = false)
     public void testNo() {
         System.out.println("no");
     }
